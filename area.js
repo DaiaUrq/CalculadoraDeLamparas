@@ -57,11 +57,11 @@ function calbaño(){
     var lampara15w = lumen/w15;
     var lampara20w = lumen/w20;
     var lampara30w = lumen/w30;
-    document.getElementById("re1").innerHTML = "Lampara de 5W :" + parseInt(lampara5w);
-    document.getElementById("re2").innerHTML = "Lampara de 12W :"+ parseInt(lampara12w);
-    document.getElementById("re3").innerHTML = "Lampara de 15W :"+ parseInt(lampara15w); 
-    document.getElementById("re4").innerHTML = "Lampara de 20W :"+ parseInt(lampara20w);
-    document.getElementById("re5").innerHTML = "Lampara de 30W :"+ parseInt(lampara30w);
+    document.getElementById("re1").innerHTML = "Lampara de 5W: " + parseInt(lampara5w);
+    document.getElementById("re2").innerHTML = "Lampara de 12W: "+ parseInt(lampara12w);
+    document.getElementById("re3").innerHTML = "Lampara de 15W: "+ parseInt(lampara15w); 
+    document.getElementById("re4").innerHTML = "Lampara de 20W: "+ parseInt(lampara20w);
+    document.getElementById("re5").innerHTML = "Lampara de 30W: "+ parseInt(lampara30w);
 }
 
 function calcomedorcoci(){

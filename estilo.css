@@ -32,8 +32,14 @@ body {
 
 .titulo2{   
     width: 40%;
-    padding:1rem 0rem ;
+    padding:0.3rem 0rem ;
     text-align: center; 
+    color: var(--gris);
+}
+.titulo3{   
+    width: 50%;
+    padding:1rem 1rem ;
+    text-align: left; 
     color: var(--gris);
 }
 
