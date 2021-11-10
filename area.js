@@ -13,11 +13,14 @@ var w30 = 4000;
 function cal(){ 
     var lado1 = document.getElementById("la1").value;
     var lado2 = document.getElementById("la2").value;   
-    var calarea = lado1*lado2;    
-    document.getElementById("area").innerHTML = "Area :"+ calarea;
-    return calarea;
+    if(lado1<=0 || lado2<=0){
+        document.getElementById("area").innerHTML = "Area:"+ " 0 no es un N° valido";
+    }else{
+        var calarea= lado1*lado2;    
+        document.getElementById("area").innerHTML = "Area :"+ calarea;
+        return calarea;
+    }
 }
-
 
 function caldormitorio(){
     var lumen= cal()*dormitorio;
@@ -99,7 +102,4 @@ function solonumeros(evt){
     } else{ 
       return false;
     }
-}
-
-
- 
+} 

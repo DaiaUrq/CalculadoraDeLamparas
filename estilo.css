@@ -47,11 +47,10 @@ body {
 }
 
 .area{
-    padding:1rem 1rem ;     
+    padding:0.99rem 1rem;     
     display: flex;
     flex-direction: column;
-    float: left;
-    color: var(--gris);
+    float: left;    
 }
 
 .ambientes{    
@@ -65,16 +64,14 @@ body {
 }
 
 .respuesta{    
-    padding: 1rem;;
+    padding: 1rem 1rem;
+    margin-top: 0.2rem ;
     display: flex; /** si**/
     flex-direction: column; /** si**/ 
     color: var(--gris);
     width: 20%;
     font-size: 1rem;     
 }
-
-
-
 
 .lado{
     padding: 1rem 1rem;
@@ -85,10 +82,10 @@ body {
 
 .calcular{
     padding: 1rem 1rem;
-    background-color: var(--primario);
-    color: var(--blanco);
-    margin-top: 0.2rem ;
+    margin-top: 0.2rem;
     font-size: 1rem;
+    background-color: var(--primario);
+    color: var(--blanco);   
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
@@ -96,6 +93,21 @@ body {
     text-align: center;
     border: none;
     cursor: pointer;
+}
+.borrar{ 
+    padding: 1rem 1rem;
+    margin-top: 0.2rem;
+    font-size: 1rem;
+    background-color: var(--gris);
+    color: var(--blanco);       
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    
 }
 
 .botonambientes{
@@ -115,7 +127,7 @@ body {
 .botonrespuesta{
     background-color: var(--primario);
     color: var(--blanco);
-    padding:1rem;
+    padding:1rem 1rem;
     margin-top: 0.2rem ;
     font-size: 1rem;
     text-decoration: none;
