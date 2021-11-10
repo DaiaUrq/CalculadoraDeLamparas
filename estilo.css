@@ -7,6 +7,7 @@
     --grisclaro: #DFE9F3
 }
 
+}
 body {
     max-width: 120rem
     font-size: 16px; /* 1 rem = 10px*/
@@ -15,9 +16,8 @@ body {
 
 .imagen{
     padding:1rem, 1rem ;
-    background-image: url(../foto.jpg);
-    background-repeat: no-repeat;
-    
+    background-image: url(foto.jpg);
+    background-repeat: no-repeat;    
     background-position: center center ;
     background-size:cover ;
     border-radius: 1rem; 
@@ -61,6 +61,7 @@ body {
     color: var(--gris);
     width: 20%;
     font-size: 1rem;
+    
 }
 
 .respuesta{    
@@ -71,6 +72,9 @@ body {
     width: 20%;
     font-size: 1rem;     
 }
+
+
+
 
 .lado{
     padding: 1rem 1rem;
@@ -125,4 +129,33 @@ body {
     padding: 0rem 1rem;
     font-size: 70%;
     color: var(--gris);
+}
+
+@media (max-width: 768px) {
+    .sombra{
+        display: grid;   
+    }
+
+    .respuesta{
+        width: 60%;
+    }
+  
+   .area{
+        width: 60%;
+        padding-top: 1rem;
+    }
+
+   .ambientes{
+        width: 60%;      
+    }
+
+   .titulo{
+    width: 100%; 
+    padding: auto;
+    }
+
+   .titulo2{
+    width: 100%; 
+    padding: auto;
+    } 
 }
