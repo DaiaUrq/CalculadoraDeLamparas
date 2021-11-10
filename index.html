@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CantidadDeLamparas</title>
+    <link href="estilo.css" rel="stylesheet">
+   
+</head>
+
+<body>
+    <div class="imagen">
+        
+        <header>
+            <h1 class="titulo">Calculadora de lamparas</h1>
+        
+            <main class="titulo2">Usted debe ingresa las medidas del espacio a iluminar.</main>
+        </header>
+    
+    
+        <main > 
+            <section class="sombra" >
+                <div class ="area">   
+                    <input id="la1" type="text" name="age" id="age" onkeypress="return solonumeros(event)" class="lado" placeholder ="Lado 1">
+                    <input id="la2" type="text" name="age" id="age" onkeypress="return solonumeros(event)" class="lado" placeholder ="Lado 2">
+                    <button onclick="cal()" class="calcular" > Calcular</button>
+                    <output id="area" class="area"></output>
+                </div>
+        
+                <div class="ambientes">
+                    <button onclick = "caldormitorio ()" class="botonambientes">Dormitorio</button> 
+                    <button onclick = "calcomedorcoci()" class="botonambientes">Cocina</button>  
+                    <button onclick = "calbaño()" class="botonambientes">Baño</button>  
+                    <button onclick = "calescalerapasillo()" class="botonambientes">Escalera / Pasillo</button>  
+                    <button onclick = "calcomedorcoci()" class="botonambientes">Comedor</button> 
+                    <button onclick = "calpatio()" class="botonambientes">Patio</button>   
+                
+                </div> 
+            
+                <div class="respuesta">
+                    <output id="re1" class="botonrespuesta">Lampara de 5w</output>
+                    <output id="re2" class="botonrespuesta">Lampara de 12w</output>
+                    <output id="re3" class="botonrespuesta">Lampara de 15w</output>
+                    <output id="re4" class="botonrespuesta">Lampara de 20w</output>
+                    <output id="re5" class="botonrespuesta">Lampara de 30w</output>
+                </div>
+            </section>      
+        </main>
+    </div>
+     
+    <footer class="footer">
+        <p >Daiana Urquilla. </p>
+    </footer> 
+
+    <script src="area.js"></script>
+
+</body>
+</html>

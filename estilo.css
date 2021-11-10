@@ -1,0 +1,128 @@
+:root {
+    --blanco: #ffffff;
+    --negro: #212121;
+    --primario: #FFC107; 
+    --secundario:#0097A7;
+    --gris:#757575;
+    --grisclaro: #DFE9F3
+}
+
+body {
+    max-width: 120rem
+    font-size: 16px; /* 1 rem = 10px*/
+    font-family: 'Krub', sans-serif;
+}
+
+.imagen{
+    padding:1rem, 1rem ;
+    background-image: url(../foto.jpg);
+    background-repeat: no-repeat;
+    
+    background-position: center center ;
+    background-size:cover ;
+    border-radius: 1rem; 
+}
+
+.titulo{
+    width: 40%;
+    text-align: center; 
+    padding:1rem 0rem ; 
+    color: var(--gris);   
+}
+
+.titulo2{   
+    width: 40%;
+    padding:1rem 0rem ;
+    text-align: center; 
+    color: var(--gris);
+}
+
+.sombra{
+    -webkit-box-shadow: 0px 5px 15 px 0px rgba(112,112,112,0.54);
+    -moz-box-shadow:0px 5px 15px 0px rgba(112,112,12,0.54);
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
+    padding: 1rem ;
+    border-radius: 1rem;
+    display: flex;
+}
+
+.area{
+    padding:1rem 1rem ;     
+    display: flex;
+    flex-direction: column;
+    float: left;
+    color: var(--gris);
+}
+
+.ambientes{    
+    padding:1rem 1rem ;
+    display: flex; /** si**/
+    flex-direction: column; /** si**/ 
+    color: var(--gris);
+    width: 20%;
+    font-size: 1rem;
+}
+
+.respuesta{    
+    padding: 1rem;;
+    display: flex; /** si**/
+    flex-direction: column; /** si**/ 
+    color: var(--gris);
+    width: 20%;
+    font-size: 1rem;     
+}
+
+.lado{
+    padding: 1rem 1rem;
+    margin-top: 0.2rem ;
+    text-align: left;
+    color: var(--gris);
+}
+
+.calcular{
+    padding: 1rem 1rem;
+    background-color: var(--primario);
+    color: var(--blanco);
+    margin-top: 0.2rem ;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.botonambientes{
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding:1rem;
+    margin-top: 0.2rem ;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;     
+}
+
+.botonrespuesta{
+    background-color: var(--primario);
+    color: var(--blanco);
+    padding:1rem;
+    margin-top: 0.2rem ;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;    
+}
+
+.footer{
+    padding: 0rem 1rem;
+    font-size: 70%;
+    color: var(--gris);
+}
